@@ -1,0 +1,144 @@
+html {
+    background: url('../img/graphy.png');
+    background-attachment: fixed;
+    background-position: 15px 15px;
+}
+body {
+    font-family: georgia;
+    font-size: 12pt;
+    color: black;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+a {
+    color: #A60000;
+    text-decoration: none;
+}
+a:hover {
+    color: #FF4040;
+}
+
+h1, h1.subtitle, h2 {
+    /* text */
+    font-family: Oswald, 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 30pt;
+    color: #555;
+    font-weight: normal;
+    white-space: nowrap;
+    
+    /* spacing */
+    line-height: 1.2;
+    margin: 10px 0;
+}
+h1 {
+    font-size: 48pt;
+    color: #BF3030;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 20pt;
+    color: #1D7273;
+}
+
+p {
+    margin: 10px 0;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+th, tr, td {
+    background-color: #AFCC6A;
+    padding: 10px 20px;
+    font-weight: normal;
+}
+th {
+    background-color: #8DA140;
+}
+tr {
+    border-bottom: 1px dotted #FFF;
+}
+tr:last-child {
+    border: none;
+}
+th:first-child, td:first-child {
+    border-right: 1px dotted #FFF;
+}
+
+.box, header {
+    background-color: #FFF;
+    display: block;
+    padding: 10px 20px;
+    margin: 0 0 10px 0;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+header .title {
+    display: inline-block
+}
+
+nav {
+    font-family: Oswald, 'Trebuchet MS', Helvetica, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+nav .quicklinksTitle {
+    color: #1D7273;
+    font-size: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 1px 0;
+    line-height: 1.44;
+    padding: 0;
+}
+nav a {
+    color: #8DA140;
+}
+
+img {
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+blockquote {
+    margin: 0;
+    padding: 0.25em 50px;
+    line-height: 1.45;
+    position: relative;
+}
+blockquote:before {
+    display: block;
+    content: '\201C';
+    font-size: 50pt;
+    position: absolute;
+    left: 12px;
+    top: -16px;
+    color: inherit;
+}
+
+blockquote cite {
+    font-size: 10pt;
+    display: block;
+    margin-top: 5px;
+}
+blockquote cite:before {
+    content: '\2014 \2009'
+}
+
+code {
+    overflow: none;
+    font-size: 10pt;
+}
+
