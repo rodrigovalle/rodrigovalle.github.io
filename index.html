@@ -1,7 +1,104 @@
+<!DOCTYPE HTML>
 <html>
-	<body>
-		<H1>HAPPY BIRTHDAY JULIA!</H1>
-		<p>*confetti* *party* *CAKE!*</p>
-	</body>
-</html>
 
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link href='prism.css' rel='stylesheet'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" defer></script>
+    <script language='javascript' type='text/javascript' src='animation.js' defer></script>
+    <script src='prism.js' async></script>
+    <title>Testpage: HTML Showcase</title>    
+</head>
+
+<body>
+    <header>
+        <div class='title'>
+            <h1>Testpage</h1>
+            <h1 class='subtitle'>HTML Showcase</h1>
+        </div>
+
+        <nav class='box'>
+            <span class='quicklinksTitle'>Quicklinks<br></span>
+            <ul>
+                <li><a href='#xkcd'>XKCD</a></li>
+                <li><a href='#image'>Image</a></li>
+                <li><a href='#quote'>Quote</a></li>
+                <li><a href='#code'>Code</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class='box' id='xkcd'>
+        <h2>Table of My Favorite XKCD Comics</h2>
+        <p>XKCD is a webcomic written and illustrated by Randall Munroe,
+        I've listed a few of my favorite strips in no particular order.</p>
+        <table>
+            <tr>
+                <th>Title</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <td>Cat Proximity</td>
+                <td><a href='http://www.xkcd.com/231'>xkcd.com/231</a></td>
+            </tr>
+            <tr>
+                <td>Useless</td>
+                <td><a href='http://www.xkcd.com/55'>xkcd.com/55</a></td>
+            </tr>
+            <tr>
+                <td>Compiling</td>
+                <td><a href='http://www.xkcd.com/303'>xkcd.com/303</a></td>
+            </tr>
+            <tr>
+                <td>Compiler Complaint</td>
+                <td><a href='http://www.xkcd.com/371'>xkcd.com/371</a></td>
+            </tr>
+            <tr>
+                <td>Sandwich</td>
+                <td><a href='http://www.xkcd.com/149'>xkcd.com/149</a></td>
+            </tr>
+            <tr>
+                <td>Exploits of a Mom</td>
+                <td><a href='http://www.xkcd.com/327'>xkcd.com/327</a></td>
+            </tr>
+            <tr>
+                <td>New Car</td>
+                <td><a href='http://www.xkcd.com/570'>xkcd.com/570</a></td>
+            </tr>
+        </table>
+    </section>
+
+    <section class='box' id='image'>
+        <h2>Image</h2>
+        <p>Here is an <em>adorable</em> cr&#234;pe that I ate over the summer.</p>
+        <img src='crepe.jpg' height='400' alt='Adorable crepe'>
+    </section>
+
+    <section class='box' id='quote'>
+        <h2>Quote</h2>
+        <p>Here's a block quote for good measure.</p>
+        <blockquote>Despite my ghoulish reputation, I really have the
+            heart of a small boy. I keep it in a jar on my desk.
+            <cite>Robert Bloch</cite>
+        </blockquote>
+    </section>
+
+    <section class='box' id='code'>
+        <h2>Code</h2>
+        <p>Inline code snippet: <code class='language-python'>import antigravity</code></p>
+        <p>Code block:</p>
+<pre><code class='language-python'>def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n-1)
+
+e =  1
+for i in range(1, 50):
+    e = e + 1.0/(factorial(i))
+print e
+</code></pre>
+    </section>
+</body>
+
+</html>
